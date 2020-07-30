@@ -174,8 +174,6 @@ class SportCar: Car, CustomStringConvertible {
     
 }
 
-
-
 class TrunkCar: Car, CustomStringConvertible {
     
     var description: String {
@@ -284,7 +282,6 @@ class TrunkCar: Car, CustomStringConvertible {
         print(description)
     }
 }
-
 
 var maz = TrunkCar(brand: "MAZ", model: "456", color: .blue, volume: 6.0, buildYear: 2000, trunkSize: 12.0, trunkSizeUsed: 6.0, isEngineStarted: false, isWindowOpened: true, isTrailerAttached: false, isMiddleWheelRaised: false)
 
